@@ -1,0 +1,121 @@
+.container .content-wrapper .content .fare-wrapper {
+    margin-top: 20px;
+    display: inherit;
+    width: 800px;
+    height: 200px;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid #eaeaea;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare {
+    width: 700px;
+    height: 100px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .from-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    flex-grow: 2;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .time-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+    flex-grow: 10;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .to-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    flex-grow: 2;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .direction-from {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .direction-to {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .flight-number {
+    font-size: 12px;
+    color: #939393
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .time-line {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .flight-time {
+    padding-top: 20px;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .time-line .city-code {
+    font-size: 12px;
+    color: #939393
+}
+
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .time-line .departure-time {
+    display: flex;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .time-line .arrival-time {
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.container .content-wrapper .content .fare-wrapper .fares .fare-info .time-line .line {
+    width: 80px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.container .content-wrapper .content .fare-wrapper .fare .fare-company {
+    width: 100px;
+    height: 100px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #eaeaea;
+}
+
+.container .content-wrapper .content .fare-wrapper .fare-price {
+    width: 100px;
+    height: 200px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #eaeaea;
+}
+
+.container .content-wrapper .content .fare-wrapper .fare-price .price {
+    font-size: 24px;
+}

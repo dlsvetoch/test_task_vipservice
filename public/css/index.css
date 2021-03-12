@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container .content-wrapper {
+    width: inherit;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .content-wrapper .content {
+    display: inherit;
+    width: 1024px;
+    height: 100%;
+    justify-content: center;
+}
